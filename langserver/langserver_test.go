@@ -86,7 +86,7 @@ func TestServer(t *testing.T) {
 					"dir:/ B":     []string{"/src/test/pkg/b.go:function:pkg.B:1:17"},
 				},
 				wantFormatting: map[string]string{
-					"a.go": "package p\n\nfunc A() { A() }\n",
+				//"a.go": "package p\n\nfunc A() { A() }\n",
 				},
 			},
 		},
