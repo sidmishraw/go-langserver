@@ -1,0 +1,354 @@
+langserver-go: reading on stdin, writing on stdout
+listen tcp :6060: bind: address already in use
+[Error - 4:11:59 PM] Request textDocument/hover failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:12:00 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:73:17
+  Code: 0 
+[Error - 4:12:02 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /usr/local/Cellar/go/1.9.2/libexec/src/sync/mutex.go:72:17
+  Code: 0 
+[Error - 4:12:03 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:73:17
+  Code: 0 
+[Error - 4:12:06 PM] Request textDocument/hover failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:12:23 PM] Request textDocument/hover failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:12:23 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:73:17
+  Code: 0 
+[Error - 4:12:26 PM] Request textDocument/hover failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:12:26 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:73:17
+  Code: 0 
+[Error - 4:12:28 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:92:31
+  Code: 0 
+panic: unknown type *ast.BadExpr
+
+goroutine 56 [running]:
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.(*exprTypeContext).exprType(0xc4201da2e0, 0x18dce60, 0xc4201735e0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:505 +0x5aa5
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Underlying(0x18dd520, 0xc4204a60a0, 0x3, 0x0, 0x0, 0xc4201da2e0, 0xc420123c01, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:681 +0x10f
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doTypeMembers(0x18dd520, 0xc4204a60a0, 0x3, 0x0, 0x0, 0xc4201da2e0, 0xc420173aea, 0x6, 0xc4204bff68, 0xc4201c9f50)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:571 +0xd6
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doMembers(0x18dd960, 0xc4204a6fe0, 0x4, 0x0, 0x0, 0xc4201da2e0, 0xc420173aea, 0x6, 0xc4204bff68)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:553 +0x1e7
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member.func1(0xc4201768a0, 0x18dd960, 0xc4204a6fe0, 0x4, 0x0, 0x0, 0xc4201da2e0, 0xc420173aea, 0x6)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:171 +0xa0
+created by github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:162 +0x1c5
+[Info  - 4:12:31 PM] Connection to server got closed. Server will restart.
+langserver-go: reading on stdin, writing on stdout
+listen tcp :6060: bind: address already in use
+panic: unknown type *ast.BadExpr
+
+goroutine 9 [running]:
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.(*exprTypeContext).exprType(0xc4200453c0, 0x18dce60, 0xc42013da50, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:505 +0x5aa5
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Underlying(0x18dd520, 0xc420268100, 0x3, 0x0, 0x0, 0xc4200453c0, 0xc4201a9801, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:681 +0x10f
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doTypeMembers(0x18dd520, 0xc420268100, 0x3, 0x0, 0x0, 0xc4200453c0, 0xc42013df5a, 0x6, 0xc420101f68, 0xc42026c540)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:571 +0xd6
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doMembers(0x18dd960, 0xc420269040, 0x4, 0x0, 0x0, 0xc4200453c0, 0xc42013df5a, 0x6, 0xc420101f68)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:553 +0x1e7
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member.func1(0xc4201b88a0, 0x18dd960, 0xc420269040, 0x4, 0x0, 0x0, 0xc4200453c0, 0xc42013df5a, 0x6)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:171 +0xa0
+created by github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:162 +0x1c5
+[Info  - 4:12:33 PM] Connection to server got closed. Server will restart.
+langserver-go: reading on stdin, writing on stdout
+listen tcp :6060: bind: address already in use
+[Error - 4:12:39 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:92:31
+  Code: 0 
+[Error - 4:12:39 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:92:31
+  Code: 0 
+[Error - 4:12:40 PM] Request textDocument/hover failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:12:40 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:100:31
+  Code: 0 
+[Error - 4:12:41 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:92:31
+  Code: 0 
+[Error - 4:12:44 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:73:17
+  Code: 0 
+[Error - 4:12:45 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:92:31
+  Code: 0 
+[Error - 4:12:50 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:73:17
+  Code: 0 
+[Error - 4:12:52 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:73:17
+  Code: 0 
+[Error - 4:12:55 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:73:17
+  Code: 0 
+[Error - 4:12:56 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:73:17
+  Code: 0 
+[Error - 4:12:59 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:73:17
+  Code: 0 
+[Error - 4:13:05 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:73:6
+  Code: 0 
+[Error - 4:13:06 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:73:6
+  Code: 0 
+[Error - 4:13:07 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:73:6
+  Code: 0 
+[Error - 4:13:08 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:88:2
+  Code: 0 
+[Error - 4:13:08 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:87:17
+  Code: 0 
+[Error - 4:13:09 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:87:7
+  Code: 0 
+[Error - 4:13:10 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:87:7
+  Code: 0 
+[Error - 4:13:12 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:87:17
+  Code: 0 
+[Error - 4:13:18 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:74:2
+  Code: 0 
+[Error - 4:13:19 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:74:2
+  Code: 0 
+[Error - 4:13:20 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:74:2
+  Code: 0 
+[Error - 4:13:20 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:74:2
+  Code: 0 
+[Error - 4:13:20 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:74:2
+  Code: 0 
+[Error - 4:13:21 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:74:2
+  Code: 0 
+[Error - 4:13:23 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /usr/local/Cellar/go/1.9.2/libexec/src/sync/mutex.go:72:17
+  Code: 0 
+[Error - 4:13:23 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /usr/local/Cellar/go/1.9.2/libexec/src/sync/mutex.go:72:17
+  Code: 0 
+[Error - 4:13:23 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /usr/local/Cellar/go/1.9.2/libexec/src/sync/mutex.go:72:17
+  Code: 0 
+[Error - 4:13:25 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /usr/local/Cellar/go/1.9.2/libexec/src/sync/mutex.go:175:17
+  Code: 0 
+[Error - 4:13:27 PM] Request textDocument/hover failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:13:28 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:114:7
+  Code: 0 
+[Error - 4:13:30 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:114:17
+  Code: 0 
+[Error - 4:13:30 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:114:17
+  Code: 0 
+[Error - 4:13:31 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:114:17
+  Code: 0 
+[Error - 4:13:32 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:114:17
+  Code: 0 
+[Error - 4:13:33 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:114:17
+  Code: 0 
+[Error - 4:13:33 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:114:17
+  Code: 0 
+[Error - 4:13:34 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/tmanager.go:114:17
+  Code: 0 
+[Error - 4:13:39 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /usr/local/Cellar/go/1.9.2/libexec/src/sync/waitgroup.go:52:22
+  Code: 0 
+[Error - 4:13:40 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:182:23
+  Code: 0 
+[Error - 4:13:41 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /usr/local/Cellar/go/1.9.2/libexec/src/sync/waitgroup.go:52:22
+  Code: 0 
+[Error - 4:13:41 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /usr/local/Cellar/go/1.9.2/libexec/src/sync/waitgroup.go:52:22
+  Code: 0 
+[Error - 4:13:42 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:182:23
+  Code: 0 
+[Error - 4:13:44 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /usr/local/Cellar/go/1.9.2/libexec/src/sync/waitgroup.go:104:22
+  Code: 0 
+[Error - 4:13:48 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /usr/local/Cellar/go/1.9.2/libexec/src/sync/waitgroup.go:104:22
+  Code: 0 
+[Error - 4:13:49 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /usr/local/Cellar/go/1.9.2/libexec/src/sync/waitgroup.go:52:22
+  Code: 0 
+[Error - 4:13:49 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /usr/local/Cellar/go/1.9.2/libexec/src/sync/waitgroup.go:52:22
+  Code: 0 
+[Error - 4:13:50 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /usr/local/Cellar/go/1.9.2/libexec/src/sync/waitgroup.go:52:22
+  Code: 0 
+[Error - 4:13:50 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:182:23
+  Code: 0 
+[Error - 4:13:52 PM] Request textDocument/hover failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:14:30 PM] Request textDocument/hover failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:14:31 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:73:17
+  Code: 0 
+[Error - 4:14:33 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:73:17
+  Code: 0 
+[Error - 4:14:35 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:255:3
+  Code: 0 
+[Error - 4:14:37 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:255:3
+  Code: 0 
+[Error - 4:14:38 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:255:3
+  Code: 0 
+[Error - 4:14:41 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:73:17
+  Code: 0 
+[Error - 4:14:42 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:73:17
+  Code: 0 
+[Error - 4:14:42 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:73:17
+  Code: 0 
+[Error - 4:14:43 PM] Request textDocument/hover failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:14:43 PM] Request textDocument/hover failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:14:43 PM] Request textDocument/hover failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:14:45 PM] Request textDocument/hover failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:14:45 PM] Request textDocument/hover failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:14:47 PM] Request textDocument/hover failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:14:48 PM] Request textDocument/hover failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:14:49 PM] Request textDocument/hover failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:14:50 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:92:31
+  Code: 0 
+[Error - 4:14:50 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:92:31
+  Code: 0 
+[Error - 4:14:51 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/stm/transaction.go:92:31
+  Code: 0 
+panic: unknown type *ast.BadExpr
+
+goroutine 348 [running]:
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.(*exprTypeContext).exprType(0xc420045410, 0x18dce60, 0xc420015870, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:505 +0x5aa5
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Underlying(0x18dd520, 0xc420125c40, 0x3, 0x0, 0x0, 0xc420045410, 0xc420369701, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:681 +0x10f
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doTypeMembers(0x18dd520, 0xc420125c40, 0x3, 0x0, 0x0, 0xc420045410, 0xc420015d31, 0x5, 0xc4203b3f68, 0xc420407320)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:571 +0xd6
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doMembers(0x18dd960, 0xc4201eeba0, 0x4, 0x0, 0x0, 0xc420045410, 0xc420015d31, 0x5, 0xc4203b3f68)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:553 +0x1e7
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member.func1(0xc4201ca8a0, 0x18dd960, 0xc4201eeba0, 0x4, 0x0, 0x0, 0xc420045410, 0xc420015d31, 0x5)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:171 +0xa0
+created by github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:162 +0x1c5
+[Info  - 4:14:53 PM] Connection to server got closed. Server will restart.
+langserver-go: reading on stdin, writing on stdout
+listen tcp :6060: bind: address already in use
+[Error - 4:15:01 PM] Request textDocument/hover failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:15:01 PM] Request textDocument/hover failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:15:02 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:256:12
+  Code: 0 
+[Error - 4:15:03 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:257:5
+  Code: 0 
+[Error - 4:15:03 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:256:12
+  Code: 0 
+panic: unknown type *ast.BadExpr
+
+goroutine 43 [running]:
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.(*exprTypeContext).exprType(0xc4202de5b0, 0x18dce60, 0xc4202d2020, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:505 +0x5aa5
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Underlying(0x18dd520, 0xc4202dbb60, 0x3, 0x0, 0x0, 0xc4202de5b0, 0xc4202eec01, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:681 +0x10f
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doTypeMembers(0x18dd520, 0xc4202dbb60, 0x3, 0x0, 0x0, 0xc4202de5b0, 0xc4202d24e1, 0x5, 0xc420101f68, 0xc4202d7560)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:571 +0xd6
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doMembers(0x18dd960, 0xc4202e0aa0, 0x4, 0x0, 0x0, 0xc4202de5b0, 0xc4202d24e1, 0x5, 0xc420101f68)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:553 +0x1e7
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member.func1(0xc4201c5140, 0x18dd960, 0xc4202e0aa0, 0x4, 0x0, 0x0, 0xc4202de5b0, 0xc4202d24e1, 0x5)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:171 +0xa0
+created by github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:162 +0x1c5
+[Info  - 4:15:04 PM] Connection to server got closed. Server will restart.
+langserver-go: reading on stdin, writing on stdout
+listen tcp :6060: bind: address already in use
+[Error - 4:15:10 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:257:5
+  Code: 0 
+[Error - 4:15:10 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:257:5
+  Code: 0 
+panic: unknown type *ast.BadExpr
+
+goroutine 51 [running]:
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.(*exprTypeContext).exprType(0xc4202531e0, 0x18dce60, 0xc4200157e0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:505 +0x5aa5
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Underlying(0x18dd520, 0xc420257c80, 0x3, 0x0, 0x0, 0xc4202531e0, 0xc420093a01, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:681 +0x10f
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doTypeMembers(0x18dd520, 0xc420257c80, 0x3, 0x0, 0x0, 0xc4202531e0, 0xc420015ca1, 0x5, 0xc420169f68, 0xc420258f90)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:571 +0xd6
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doMembers(0x18dd960, 0xc420260bc0, 0x4, 0x0, 0x0, 0xc4202531e0, 0xc420015ca1, 0x5, 0xc420169f68)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:553 +0x1e7
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member.func1(0xc42007a840, 0x18dd960, 0xc420260bc0, 0x4, 0x0, 0x0, 0xc4202531e0, 0xc420015ca1, 0x5)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:171 +0xa0
+created by github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:162 +0x1c5
+[Error - 4:15:10 PM] Connection to server got closed. Server will not be restarted.

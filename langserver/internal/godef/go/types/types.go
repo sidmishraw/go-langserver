@@ -141,7 +141,7 @@ func isGoFile(d os.FileInfo) bool {
 }
 
 // When Debug is true, log messages will be printed.
-var Debug = false
+var Debug = true // false
 
 // String is for debugging purposes.
 func (t Type) String() string {

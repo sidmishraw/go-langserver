@@ -1,0 +1,302 @@
+langserver-go: reading on stdin, writing on stdout
+listen tcp :6060: bind: address already in use
+exprType tuple:false pkg: *ast.Ident cell1 [
+exprType tuple:false pkg: *ast.CallExpr MySTM.MakeMemCell(data) [
+exprType tuple:false pkg: *ast.SelectorExpr MySTM.MakeMemCell [
+exprType tuple:false pkg: *ast.Ident MySTM [
+exprType tuple:false pkg: *ast.CallExpr stm.NewSTM() [
+exprType tuple:false pkg: *ast.SelectorExpr stm.NewSTM [
+exprType tuple:false pkg: *ast.Ident stm [
+exprType tuple:false pkg: *ast.ImportSpec "github.com/sidmishraw/stm-reworked/stm" [
+] -> 0x0, Type{package "" *ast.ImportSpec "github.com/sidmishraw/stm-reworked/stm"}
+] -> 0xc42008b3b0, Type{package "" *ast.ImportSpec "github.com/sidmishraw/stm-reworked/stm"}
+member Type{package "" *ast.ImportSpec "github.com/sidmishraw/stm-reworked/stm"} 'NewSTM' {
+} -> &{func NewSTM 0xc4202a8c60 <nil> <nil>}
+exprType tuple:false pkg: *ast.Ident NewSTM [
+exprType tuple:false pkg: *ast.FuncType func() *STM [
+] -> 0x0, Type{type "" *ast.FuncType func() *STM}
+] -> 0xc4201d9ea0, Type{func "" *ast.FuncType func() *STM}
+] -> 0xc4201d9ea0, Type{func "github.com/sidmishraw/stm-reworked/stm" *ast.FuncType func() *STM}
+exprType tuple:false pkg:github.com/sidmishraw/stm-reworked/stm *ast.StarExpr *STM [
+exprType tuple:false pkg:github.com/sidmishraw/stm-reworked/stm *ast.Ident STM [
+] -> 0xc4201d9810, Type{type "github.com/sidmishraw/stm-reworked/stm" *ast.Ident STM}
+] -> 0x0, Type{type "github.com/sidmishraw/stm-reworked/stm" *ast.StarExpr *STM}
+] -> 0x0, Type{var "github.com/sidmishraw/stm-reworked/stm" *ast.StarExpr *STM}
+] -> 0xc42008b540, Type{var "github.com/sidmishraw/stm-reworked/stm" *ast.StarExpr *STM}
+member Type{var "github.com/sidmishraw/stm-reworked/stm" *ast.StarExpr *STM} 'MakeMemCell' {
+exprType tuple:false pkg:github.com/sidmishraw/stm-reworked/stm *ast.Ident STM [
+] -> 0xc4201d9810, Type{type "github.com/sidmishraw/stm-reworked/stm" *ast.Ident STM}
+} -> &{func MakeMemCell 0xc4202a8db0 <nil> <nil>}
+exprType tuple:false pkg:github.com/sidmishraw/stm-reworked/stm *ast.FuncType func(data *Data) *MemoryCell [
+] -> 0x0, Type{type "github.com/sidmishraw/stm-reworked/stm" *ast.FuncType func(data *Data) *MemoryCell}
+] -> 0xc4202bc0a0, Type{func "github.com/sidmishraw/stm-reworked/stm" *ast.FuncType func(data *Data) *MemoryCell}
+exprType tuple:false pkg:github.com/sidmishraw/stm-reworked/stm *ast.StarExpr *MemoryCell [
+exprType tuple:false pkg:github.com/sidmishraw/stm-reworked/stm *ast.Ident MemoryCell [
+] -> 0xc4201d8b40, Type{type "github.com/sidmishraw/stm-reworked/stm" *ast.Ident MemoryCell}
+] -> 0x0, Type{type "github.com/sidmishraw/stm-reworked/stm" *ast.StarExpr *MemoryCell}
+] -> 0x0, Type{var "github.com/sidmishraw/stm-reworked/stm" *ast.StarExpr *MemoryCell}
+] -> 0xc42008bef0, Type{var "github.com/sidmishraw/stm-reworked/stm" *ast.StarExpr *MemoryCell}
+[Error - 4:19:25 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:226:2
+  Code: 0 
+exprType tuple:false pkg: *ast.Ident t [
+exprType tuple:false pkg: *ast.StarExpr *Transaction [
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc4201d92c0, Type{type "" *ast.Ident Transaction}
+] -> 0x0, Type{type "" *ast.StarExpr *Transaction}
+] -> 0xc420192140, Type{var "" *ast.StarExpr *Transaction}
+[Error - 4:19:26 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:256:12
+  Code: 0 
+exprType tuple:false pkg: *ast.Ident t [
+exprType tuple:false pkg: *ast.StarExpr *Transaction [
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc4202a8b90, Type{type "" *ast.Ident Transaction}
+] -> 0x0, Type{type "" *ast.StarExpr *Transaction}
+] -> 0xc4202a9950, Type{var "" *ast.StarExpr *Transaction}
+[Error - 4:19:26 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:256:12
+  Code: 0 
+exprType tuple:false pkg: *ast.Ident t [
+exprType tuple:false pkg: *ast.StarExpr *Transaction [
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc420193860, Type{type "" *ast.Ident Transaction}
+] -> 0x0, Type{type "" *ast.StarExpr *Transaction}
+] -> 0xc42008a280, Type{var "" *ast.StarExpr *Transaction}
+[Error - 4:19:27 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:256:12
+  Code: 0 
+exprType tuple:false pkg: *ast.Ident t [
+exprType tuple:false pkg: *ast.StarExpr *Transaction [
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc4202a8d70, Type{type "" *ast.Ident Transaction}
+] -> 0x0, Type{type "" *ast.StarExpr *Transaction}
+] -> 0xc4202a9b30, Type{var "" *ast.StarExpr *Transaction}
+[Error - 4:19:27 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:256:12
+  Code: 0 
+exprType tuple:false pkg: *ast.Ident t [
+exprType tuple:false pkg: *ast.StarExpr *Transaction [
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc4201d98b0, Type{type "" *ast.Ident Transaction}
+] -> 0x0, Type{type "" *ast.StarExpr *Transaction}
+] -> 0xc420408690, Type{var "" *ast.StarExpr *Transaction}
+[Error - 4:19:28 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:256:12
+  Code: 0 
+exprType tuple:false pkg: *ast.Ident t [
+exprType tuple:false pkg: *ast.StarExpr *Transaction [
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc420193360, Type{type "" *ast.Ident Transaction}
+] -> 0x0, Type{type "" *ast.StarExpr *Transaction}
+] -> 0xc4201d81e0, Type{var "" *ast.StarExpr *Transaction}
+[Error - 4:19:28 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:256:12
+  Code: 0 
+exprType tuple:false pkg: *ast.SelectorExpr t.ReadT [
+exprType tuple:false pkg: *ast.Ident t [
+exprType tuple:false pkg: *ast.StarExpr *Transaction [
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc42008b4a0, Type{type "" *ast.Ident Transaction}
+] -> 0x0, Type{type "" *ast.StarExpr *Transaction}
+] -> 0xc4201d8320, Type{var "" *ast.StarExpr *Transaction}
+member Type{var "" *ast.StarExpr *Transaction} 'ReadT' {
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc42008b4a0, Type{type "" *ast.Ident Transaction}
+exprType tuple:false pkg: *ast.BadExpr BadExpr [
+] -> 0x0, %!v(PANIC=runtime error: invalid memory address or nil pointer dereference)
+panic: unknown type *ast.BadExpr
+[signal SIGSEGV: segmentation violation code=0xc420235e18 addr=0x10caccd pc=0x13c9a52]
+
+goroutine 51 [running]:
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.(*exprTypeContext).exprType(0xc420045340, 0x18dce80, 0xc420015760, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:505 +0x5aa5
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Underlying(0x18dd540, 0xc420223c60, 0x3, 0x0, 0x0, 0xc420045340, 0xc42008b401, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:681 +0x10f
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doTypeMembers(0x18dd540, 0xc420223c60, 0x3, 0x0, 0x0, 0xc420045340, 0xc420015c21, 0x5, 0xc420237f68, 0xc420221470)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:571 +0xd6
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doMembers(0x18dd980, 0xc420228c60, 0x4, 0x0, 0x0, 0xc420045340, 0xc420015c21, 0x5, 0xc420237f68)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:553 +0x1e7
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member.func1(0xc4200728a0, 0x18dd980, 0xc420228c60, 0x4, 0x0, 0x0, 0xc420045340, 0xc420015c21, 0x5)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:171 +0xa0
+created by github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:162 +0x1c5
+[Info  - 4:19:29 PM] Connection to server got closed. Server will restart.
+langserver-go: reading on stdin, writing on stdout
+listen tcp :6060: bind: address already in use
+exprType tuple:false pkg: *ast.Ident t [
+exprType tuple:false pkg: *ast.StarExpr *Transaction [
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc4201a36d0, Type{type "" *ast.Ident Transaction}
+] -> 0x0, Type{type "" *ast.StarExpr *Transaction}
+] -> 0xc420172550, Type{var "" *ast.StarExpr *Transaction}
+[Error - 4:19:34 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:256:12
+  Code: 0 
+exprType tuple:false pkg: *ast.Ident t [
+exprType tuple:false pkg: *ast.StarExpr *Transaction [
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc420123d60, Type{type "" *ast.Ident Transaction}
+] -> 0x0, Type{type "" *ast.StarExpr *Transaction}
+] -> 0xc42036ab40, Type{var "" *ast.StarExpr *Transaction}
+[Error - 4:19:34 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:256:12
+  Code: 0 
+exprType tuple:false pkg: *ast.SelectorExpr t.ReadT [
+exprType tuple:false pkg: *ast.Ident t [
+exprType tuple:false pkg: *ast.StarExpr *Transaction [
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc4201a36d0, Type{type "" *ast.Ident Transaction}
+] -> 0x0, Type{type "" *ast.StarExpr *Transaction}
+] -> 0xc420085310, Type{var "" *ast.StarExpr *Transaction}
+member Type{var "" *ast.StarExpr *Transaction} 'ReadT' {
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc4201a36d0, Type{type "" *ast.Ident Transaction}
+exprType tuple:false pkg: *ast.BadExpr BadExpr [
+] -> 0x0, %!v(PANIC=runtime error: invalid memory address or nil pointer dereference)
+panic: unknown type *ast.BadExpr
+[signal SIGSEGV: segmentation violation code=0xc42020fe18 addr=0x10caccd pc=0x13c9a52]
+
+goroutine 55 [running]:
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.(*exprTypeContext).exprType(0xc4202644d0, 0x18dce80, 0xc4201a56b0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:505 +0x5aa5
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Underlying(0x18dd540, 0xc4201da040, 0x3, 0x0, 0x0, 0xc4202644d0, 0xc4201a3601, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:681 +0x10f
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doTypeMembers(0x18dd540, 0xc4201da040, 0x3, 0x0, 0x0, 0xc4202644d0, 0xc4201a5b71, 0x5, 0xc420211f68, 0xc4201de450)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:571 +0xd6
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doMembers(0x18dd980, 0xc4201db040, 0x4, 0x0, 0x0, 0xc4202644d0, 0xc4201a5b71, 0x5, 0xc420211f68)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:553 +0x1e7
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member.func1(0xc42001e9c0, 0x18dd980, 0xc4201db040, 0x4, 0x0, 0x0, 0xc4202644d0, 0xc4201a5b71, 0x5)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:171 +0xa0
+created by github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:162 +0x1c5
+[Info  - 4:19:36 PM] Connection to server got closed. Server will restart.
+langserver-go: reading on stdin, writing on stdout
+listen tcp :6060: bind: address already in use
+exprType tuple:false pkg: *ast.Ident t [
+exprType tuple:false pkg: *ast.StarExpr *Transaction [
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc4201b3720, Type{type "" *ast.Ident Transaction}
+] -> 0x0, Type{type "" *ast.StarExpr *Transaction}
+] -> 0xc420160690, Type{var "" *ast.StarExpr *Transaction}
+[Error - 4:19:39 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:256:12
+  Code: 0 
+exprType tuple:false pkg: *ast.Ident t [
+exprType tuple:false pkg: *ast.StarExpr *Transaction [
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc4201235e0, Type{type "" *ast.Ident Transaction}
+] -> 0x0, Type{type "" *ast.StarExpr *Transaction}
+] -> 0xc4202fe3c0, Type{var "" *ast.StarExpr *Transaction}
+[Error - 4:19:39 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:256:12
+  Code: 0 
+exprType tuple:false pkg: *ast.SelectorExpr t.ReadT [
+exprType tuple:false pkg: *ast.Ident t [
+exprType tuple:false pkg: *ast.StarExpr *Transaction [
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc420161900, Type{type "" *ast.Ident Transaction}
+] -> 0x0, Type{type "" *ast.StarExpr *Transaction}
+] -> 0xc420122c80, Type{var "" *ast.StarExpr *Transaction}
+member Type{var "" *ast.StarExpr *Transaction} 'ReadT' {
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc420161900, Type{type "" *ast.Ident Transaction}
+exprType tuple:false pkg: *ast.BadExpr BadExpr [
+] -> 0x0, %!v(PANIC=runtime error: invalid memory address or nil pointer dereference)
+panic: unknown type *ast.BadExpr
+[signal SIGSEGV: segmentation violation code=0xc420219e18 addr=0x10caccd pc=0x13c9a52]
+
+goroutine 14 [running]:
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.(*exprTypeContext).exprType(0xc42016d430, 0x18dce80, 0xc420015b60, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:505 +0x5aa5
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Underlying(0x18dd540, 0xc4201edec0, 0x3, 0x0, 0x0, 0xc42016d430, 0xc420161901, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:681 +0x10f
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doTypeMembers(0x18dd540, 0xc4201edec0, 0x3, 0x0, 0x0, 0xc42016d430, 0xc420172051, 0x5, 0xc42021bf68, 0xc4201ef4a0)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:571 +0xd6
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doMembers(0x18dd980, 0xc4201f4ec0, 0x4, 0x0, 0x0, 0xc42016d430, 0xc420172051, 0x5, 0xc42021bf68)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:553 +0x1e7
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member.func1(0xc420178840, 0x18dd980, 0xc4201f4ec0, 0x4, 0x0, 0x0, 0xc42016d430, 0xc420172051, 0x5)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:171 +0xa0
+created by github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:162 +0x1c5
+[Info  - 4:19:41 PM] Connection to server got closed. Server will restart.
+langserver-go: reading on stdin, writing on stdout
+listen tcp :6060: bind: address already in use
+exprType tuple:false pkg: *ast.SelectorExpr t.ReadT [
+exprType tuple:false pkg: *ast.Ident t [
+exprType tuple:false pkg: *ast.StarExpr *Transaction [
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc4201a97c0, Type{type "" *ast.Ident Transaction}
+] -> 0x0, Type{type "" *ast.StarExpr *Transaction}
+] -> 0xc42017a640, Type{var "" *ast.StarExpr *Transaction}
+member Type{var "" *ast.StarExpr *Transaction} 'ReadT' {
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc4201a97c0, Type{type "" *ast.Ident Transaction}
+exprType tuple:false pkg: *ast.BadExpr BadExpr [
+] -> 0x0, %!v(PANIC=runtime error: invalid memory address or nil pointer dereference)
+panic: unknown type *ast.BadExpr
+[signal SIGSEGV: segmentation violation code=0xc42015de18 addr=0x10caccd pc=0x13c9a52]
+
+goroutine 10 [running]:
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.(*exprTypeContext).exprType(0xc420045120, 0x18dce80, 0xc42013d800, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:505 +0x5aa5
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Underlying(0x18dd540, 0xc42025c0e0, 0x3, 0x0, 0x0, 0xc420045120, 0xc4201a9701, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:681 +0x10f
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doTypeMembers(0x18dd540, 0xc42025c0e0, 0x3, 0x0, 0x0, 0xc420045120, 0xc42013dcc1, 0x5, 0xc42015ff68, 0xc42026c300)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:571 +0xd6
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doMembers(0x18dd980, 0xc42025d0e0, 0x4, 0x0, 0x0, 0xc420045120, 0xc42013dcc1, 0x5, 0xc42015ff68)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:553 +0x1e7
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member.func1(0xc4201ba840, 0x18dd980, 0xc42025d0e0, 0x4, 0x0, 0x0, 0xc420045120, 0xc42013dcc1, 0x5)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:171 +0xa0
+created by github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:162 +0x1c5
+[Info  - 4:19:45 PM] Connection to server got closed. Server will restart.
+langserver-go: reading on stdin, writing on stdout
+listen tcp :6060: bind: address already in use
+exprType tuple:false pkg: *ast.Ident t [
+exprType tuple:false pkg: *ast.StarExpr *Transaction [
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc420093e50, Type{type "" *ast.Ident Transaction}
+] -> 0x0, Type{type "" *ast.StarExpr *Transaction}
+] -> 0xc4202f6c30, Type{var "" *ast.StarExpr *Transaction}
+[Error - 4:19:45 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:256:12
+  Code: 0 
+exprType tuple:false pkg: *ast.Ident t [
+exprType tuple:false pkg: *ast.StarExpr *Transaction [
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc42035d5e0, Type{type "" *ast.Ident Transaction}
+] -> 0x0, Type{type "" *ast.StarExpr *Transaction}
+] -> 0xc4203b83c0, Type{var "" *ast.StarExpr *Transaction}
+[Error - 4:19:45 PM] Request textDocument/hover failed.
+  Message: failed to find doc object for /Users/sidmishraw/go/src/github.com/sidmishraw/stm-reworked/main.go:256:12
+  Code: 0 
+exprType tuple:false pkg: *ast.SelectorExpr t.ReadT [
+exprType tuple:false pkg: *ast.Ident t [
+exprType tuple:false pkg: *ast.StarExpr *Transaction [
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc4202f7220, Type{type "" *ast.Ident Transaction}
+] -> 0x0, Type{type "" *ast.StarExpr *Transaction}
+] -> 0xc420198000, Type{var "" *ast.StarExpr *Transaction}
+member Type{var "" *ast.StarExpr *Transaction} 'ReadT' {
+exprType tuple:false pkg: *ast.Ident Transaction [
+] -> 0xc4202f7220, Type{type "" *ast.Ident Transaction}
+exprType tuple:false pkg: *ast.BadExpr BadExpr [
+] -> 0x0, %!v(PANIC=runtime error: invalid memory address or nil pointer dereference)
+panic: unknown type *ast.BadExpr
+[signal SIGSEGV: segmentation violation code=0xc420117e18 addr=0x10caccd pc=0x13c9a52]
+
+goroutine 12 [running]:
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.(*exprTypeContext).exprType(0xc420044510, 0x18dce80, 0xc420159630, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:505 +0x5aa5
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Underlying(0x18dd540, 0xc420309c20, 0x3, 0x0, 0x0, 0xc420044510, 0xc4202f7201, 0x0, 0x0, 0x0, ...)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:681 +0x10f
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doTypeMembers(0x18dd540, 0xc420309c20, 0x3, 0x0, 0x0, 0xc420044510, 0xc420159af1, 0x5, 0xc420119f68, 0xc420314150)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:571 +0xd6
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.doMembers(0x18dd980, 0xc42030ec20, 0x4, 0x0, 0x0, 0xc420044510, 0xc420159af1, 0x5, 0xc420119f68)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:553 +0x1e7
+github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member.func1(0xc42007a840, 0x18dd980, 0xc42030ec20, 0x4, 0x0, 0x0, 0xc420044510, 0xc420159af1, 0x5)
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:171 +0xa0
+created by github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types.Type.Member
+	/Users/sidmishraw/go/src/github.com/sourcegraph/go-langserver/langserver/internal/godef/go/types/types.go:162 +0x1c5
+[Error - 4:19:46 PM] Connection to server got closed. Server will not be restarted.
